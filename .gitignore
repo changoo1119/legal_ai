@@ -1,0 +1,25 @@
+# 環境変数・APIキー
+config.env
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# 生成レポート（再生成可能）
+report/*.xlsx
+report/*.docx
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/

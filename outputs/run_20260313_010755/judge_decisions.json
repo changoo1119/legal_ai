@@ -1,0 +1,20 @@
+[
+  {
+    "decision_id": "decision_d7cb8c9b5e",
+    "round_number": 1,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "議論は争点整理表の範囲（605条の適用と信義則・背信的悪意者法理の射程、612条違反と解除要否、所有権に基づく明渡しの可否）に収まり、新論点は出ていない。他方、当該法的評価の当否は未だ絞り込みが必要であり、次ラウンドでの主張・反論の深化が相当である。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-12T16:16:04.404327Z"
+  },
+  {
+    "decision_id": "decision_dbcce7a3be",
+    "round_number": 2,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "最新ラウンドは、605条に対する背信的悪意者法理・信義則の適用可否と、612条2項に基づく解除主張の要否という既存の争点に収れんしており、新論点の追加はない。事実関係（F1〜F7）は不争で、法的評価のみが対立しているため、最終ラウンドでこれらの論点について主張の詰めを行う必要があると判断する。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-12T16:22:21.316293Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "decision_id": "decision_e4787eb64d",
+    "round_number": 1,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "新論点は示されておらず、主張はISSUE_1・ISSUE_2の範囲内に収まっている。他方、民法545条の「第三者」の範囲・信義則の適用、使用利益の算定基準と賃料債権譲渡による控除の扱い、民法704条の適用可否などは依然対立し、両イシューは未解消（status: open）であるため、最終ラウンドでの反論・整理を継続する必要がある。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T13:33:29.579932Z"
+  },
+  {
+    "decision_id": "decision_a5c551e5db",
+    "round_number": 2,
+    "new_issue_found": false,
+    "continue_round": false,
+    "reason": "第2ラウンドの主張は既存のISSUE_1およびISSUE_2の射程内（解除の第三者保護・信義則、不当利得の成否・純利得評価・債権譲渡の影響・相殺の位置付け）にとどまり、新たな争点の顕在化はない。現在ラウンドが最大ラウンド数に到達しているため、次ラウンドは継続しない。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T13:48:14.825329Z"
+  }
+]

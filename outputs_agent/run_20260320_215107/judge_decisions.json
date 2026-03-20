@@ -1,0 +1,20 @@
+[
+  {
+    "decision_id": "decision_7910ef06be",
+    "round_number": 1,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "当事者の主張は従前どおりで、中心は契約不適合（F9）の有無・程度とその評価にとどまり、新たな独立の争点は現れていない。他方でF9が未解明のためISSUE_1を確定できず、これに連動するISSUE_2・ISSUE_3も判断不能である。現在ラウンド1で最大2に余裕があるため、次ラウンドでF9に関する主張・立証の詰めを継続する必要がある。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T12:58:08.296649Z"
+  },
+  {
+    "decision_id": "decision_ee4b1a9785",
+    "round_number": 2,
+    "new_issue_found": false,
+    "continue_round": false,
+    "reason": "最新ラウンドの主張はISSUE_1（契約不適合と受領拒絶の正当性）およびそれに従属するISSUE_2（危険負担・代金）・ISSUE_3（費用負担）の枠内での補充にとどまり、新たな論点は提示されていない。事実争点も引き続きF9のみで不変である。現在ラウンド数が最大ラウンド数（2/2）に到達しているため、次ラウンドの継続は不要かつ不可。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T13:00:07.512067Z"
+  }
+]

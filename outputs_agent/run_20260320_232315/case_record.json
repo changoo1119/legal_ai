@@ -1,0 +1,277 @@
+{
+  "case_id": "case_001",
+  "title": "事件名",
+  "raw_case_text": "事件名：\n\n事案：\nＡは、Ｂに対して貸金債権を有し、Ｂは、Ａに対し売掛代金債権を有していたが、Ｂは、この売掛代金債権をＣとＤとに二重に譲渡し、いずれの譲渡についても確定日附のある証書によってＡに通知し、この通知は同時にＡに到達した。その後、Ｃは、Ａに対し、この売掛代金債権を自働債権とし、ＡがＣに対して有していた貸金債権を受働債権として相殺する旨の意思表示をしたところ、Ａは、Ｃに対し、ＡのＢに対する前期貸金債権を自働債権とし、この売掛代金債権を受働債権として相殺する旨の意思表示をした。",
+  "case_summary": "ＡとＢが相互に債権債務を有する状況で、ＢはＡに対する売掛代金債権をＣ・Ｄへ二重譲渡し、確定日附ある通知が同時にＡへ到達した。到達後、Ｃは自己の譲受債権を自働債権、ＡのＣに対する貸金債権を受働債権として相殺を主張。これに対しＡは、自らのＢに対する貸金債権を自働債権、当該売掛代金債権を受働債権としてＣに相殺を主張した。相殺の可否・優劣が問題となる。",
+  "domain": "civil_obligations",
+  "parties": [
+    {
+      "party_id": "P_A",
+      "name": "Ａ",
+      "role": "other",
+      "description": null
+    },
+    {
+      "party_id": "P_B",
+      "name": "Ｂ",
+      "role": "other",
+      "description": null
+    },
+    {
+      "party_id": "P_C",
+      "name": "Ｃ",
+      "role": "other",
+      "description": null
+    },
+    {
+      "party_id": "P_D",
+      "name": "Ｄ",
+      "role": "other",
+      "description": null
+    }
+  ],
+  "timeline": [
+    {
+      "event_id": "T1",
+      "order_index": 0,
+      "description": "ＡはＢに対して貸金債権を有していた。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T2",
+      "order_index": 1,
+      "description": "ＢはＡに対して売掛代金債権を有していた。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T3",
+      "order_index": 2,
+      "description": "Ｂは当該売掛代金債権をＣに譲渡した。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T4",
+      "order_index": 3,
+      "description": "Ｂは同一売掛代金債権をＤにも譲渡した。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T5",
+      "order_index": 4,
+      "description": "Ｂは各譲渡につき確定日附のある証書によりＡに通知し、両通知はいずれも同時にＡに到達した。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T6",
+      "order_index": 5,
+      "description": "Ｃは、当該売掛代金債権を自働債権、ＡがＣに対して有していた貸金債権を受働債権として相殺する旨をＡに意思表示した。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T7",
+      "order_index": 6,
+      "description": "Ａは、自己のＢに対する貸金債権を自働債権、当該売掛代金債権を受働債権としてＣに相殺の意思表示をした。",
+      "source": "case_text"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM_1",
+      "claimant_party_id": "P_C",
+      "respondent_party_id": "P_A",
+      "title": "相殺の主張（Ｃ→Ａ）",
+      "description": "Ｃは、譲り受けた売掛代金債権を自働債権、ＡのＣに対する貸金債権を受働債権として相殺を主張した。",
+      "requested_relief": "相殺の成立による対当額の債務消滅の確認"
+    },
+    {
+      "claim_id": "CLAIM_2",
+      "claimant_party_id": "P_A",
+      "respondent_party_id": "P_C",
+      "title": "相殺の主張（Ａ→Ｃ、民法469条）",
+      "description": "Ａは、Ｂに対する貸金債権を自働債権、当該売掛代金債権を受働債権として、Ｃに対し相殺を主張した。",
+      "requested_relief": "相殺の成立によるＣの有する売掛代金債権の対当額消滅の確認"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F1",
+      "content": "ＡはＢに対して貸金債権を有していた。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F2",
+      "content": "ＢはＡに対して売掛代金債権を有していた。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F3",
+      "content": "Ｂは当該売掛代金債権をＣに譲渡した。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F4",
+      "content": "Ｂは同一売掛代金債権をＤにも譲渡した。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F5",
+      "content": "各譲渡について確定日附ある証書によるＡへの通知がされ、両通知は同時にＡに到達した。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F6",
+      "content": "Ｃは、譲受債権を自働債権、ＡのＣに対する貸金債権を受働債権として相殺の意思表示をＡに対してした。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F7",
+      "content": "Ａは、Ｂに対する貸金債権を自働債権、当該売掛代金債権を受働債権としてＣに相殺の意思表示をした。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    }
+  ],
+  "candidate_statutes": [
+    {
+      "statute_id": "CIVIL_CODE_1_2",
+      "citation": "民法1条2項",
+      "text": "権利行使・義務履行は信義誠実に従うべきことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_1_3",
+      "citation": "民法1条3項",
+      "text": "権利の濫用は許されないことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_176",
+      "citation": "民法176条",
+      "text": "物権の設定及び移転は、当事者の意思表示のみによって効力を生ずる。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_177",
+      "citation": "民法177条",
+      "text": "不動産物権変動は登記がなければ第三者に対抗できないことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_206",
+      "citation": "民法206条",
+      "text": "所有者は法令の制限内で所有物を使用・収益・処分できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_242",
+      "citation": "民法242条",
+      "text": "不動産の所有者は、その不動産に従として付合した物の所有権を取得することを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_248",
+      "citation": "民法248条",
+      "text": "付合等によって損失を受けた者が償金を請求できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_413",
+      "citation": "民法413条",
+      "text": "債権者が履行受領を拒み又は受けられない場合の受領遅滞を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_415",
+      "citation": "民法415条",
+      "text": "債務不履行による損害賠償請求の要件と限界を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_467",
+      "citation": "民法467条",
+      "text": "債権譲渡の債務者・第三者に対する対抗要件を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_468",
+      "citation": "民法468条",
+      "text": "債権譲渡において債務者が譲受人に対抗できる抗弁を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_469",
+      "citation": "民法469条",
+      "text": "債権譲渡の場合における債務者の相殺権の可否を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_505",
+      "citation": "民法505条",
+      "text": "相殺の一般的要件を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_506",
+      "citation": "民法506条",
+      "text": "相殺の方法と効力を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_536",
+      "citation": "民法536条",
+      "text": "双方の責めに帰することができない事由による履行不能時の危険負担を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_541",
+      "citation": "民法541条",
+      "text": "催告による解除の要件を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_545",
+      "citation": "民法545条",
+      "text": "解除の効果と原状回復義務を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_555",
+      "citation": "民法555条",
+      "text": "売買契約の成立を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_562",
+      "citation": "民法562条",
+      "text": "契約不適合がある場合の買主の追完請求権を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_563",
+      "citation": "民法563条",
+      "text": "契約不適合がある場合の買主の代金減額請求権を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_564",
+      "citation": "民法564条",
+      "text": "契約不適合の場合における損害賠償請求・解除との関係を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_601",
+      "citation": "民法601条",
+      "text": "賃貸借契約の成立と基本的内容を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_605",
+      "citation": "民法605条",
+      "text": "不動産賃貸借は登記があれば第三者に対抗できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_612_1",
+      "citation": "民法612条1項",
+      "text": "賃借人は賃貸人の承諾なく賃借権譲渡や転貸をできないことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_612_2",
+      "citation": "民法612条2項",
+      "text": "無断転貸等があった場合に賃貸人が解除できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_703",
+      "citation": "民法703条",
+      "text": "法律上の原因なく利益を受け他人に損失を及ぼした者の不当利得返還義務を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_704",
+      "citation": "民法704条",
+      "text": "悪意の受益者の返還範囲と損害賠償責任を定める。"
+    }
+  ],
+  "notes": null
+}

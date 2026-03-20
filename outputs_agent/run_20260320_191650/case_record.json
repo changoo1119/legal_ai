@@ -1,0 +1,170 @@
+{
+  "case_id": "case_001",
+  "title": "土地賃貸借・無断転貸・所有権移転後の明渡請求事件",
+  "raw_case_text": "事件名：土地賃貸借・無断転貸・所有権移転後の明渡請求事件\n\n事案：\n甲は、乙に対し、その所有するA地を、石材置場に使用する目的で10年間賃貸したが、賃借権設定登記はされていなかった。乙は、A地の2分の1を石材置場として使用していたが、その後、残り2分の1を建物所有の目的で丙に転貸した。丙は、乙が甲から転貸の承諾を得ていないことを知りながら、A地上で建物の建築に着手した。その後、丙は甲からA地の所有権を譲り受け、所有権移転登記を経由した。丙は、乙に対し、乙が使用しているA地部分の明渡しを請求した。丙の請求は認められるべきか。",
+  "case_summary": "甲が乙に対しA地を石材置場目的で10年間賃貸（登記なし）。乙はA地の半分を自己使用し、残り半分を建物所有目的で丙に無断転貸。丙は無断転貸を知りつつ建築着手後、甲からA地の所有権を取得して登記を経由し、乙の使用部分の明渡しを請求。新所有者である丙の明渡請求が認められるかが争点。",
+  "domain": "civil_obligations",
+  "parties": [
+    {
+      "party_id": "PLAINTIFF",
+      "name": "丙",
+      "role": "plaintiff",
+      "description": null
+    },
+    {
+      "party_id": "DEFENDANT",
+      "name": "乙",
+      "role": "defendant",
+      "description": null
+    },
+    {
+      "party_id": "OTHER_1",
+      "name": "甲",
+      "role": "other",
+      "description": null
+    }
+  ],
+  "timeline": [
+    {
+      "event_id": "T1",
+      "order_index": 0,
+      "description": "甲がA地を石材置場目的で10年間乙に賃貸した",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T2",
+      "order_index": 1,
+      "description": "賃借権設定登記はされなかった",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T3",
+      "order_index": 2,
+      "description": "乙がA地の2分の1を石材置場として使用した",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T4",
+      "order_index": 3,
+      "description": "乙が残り2分の1を建物所有目的で丙に転貸した",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T5",
+      "order_index": 4,
+      "description": "丙は乙が甲の転貸承諾を得ていないと知りながらA地で建物の建築に着手した",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T6",
+      "order_index": 5,
+      "description": "丙が甲からA地の所有権を譲り受け所有権移転登記をした",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T7",
+      "order_index": 6,
+      "description": "丙が乙に対し乙の使用部分の明渡しを請求した",
+      "source": "case_text"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM_1",
+      "claimant_party_id": "PLAINTIFF",
+      "respondent_party_id": "DEFENDANT",
+      "title": "明渡請求",
+      "description": "新所有者として、乙が使用しているA地部分の明渡しを求める請求",
+      "requested_relief": "A地部分の明渡し"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F1",
+      "content": "甲が乙に対しA地を石材置場目的で10年間賃貸した",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F2",
+      "content": "当該賃貸借について賃借権設定登記はされていなかった",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F3",
+      "content": "乙はA地の2分の1を石材置場として使用していた",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F4",
+      "content": "乙は残り2分の1を建物所有目的で丙に転貸した",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F5",
+      "content": "乙は甲から転貸の承諾を得ていなかった",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F6",
+      "content": "丙は乙が甲の承諾を得ていないことを知っていた",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F7",
+      "content": "丙はA地上で建物の建築に着手した",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F8",
+      "content": "丙は甲からA地の所有権を譲り受け、所有権移転登記を経由した",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F9",
+      "content": "丙は乙に対し、乙が使用しているA地部分の明渡しを請求した",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    }
+  ],
+  "candidate_statutes": [
+    {
+      "statute_id": "CIVIL_CODE_176",
+      "citation": "民法176条",
+      "text": "物権の設定及び移転は、当事者の意思表示のみによって、その効力を生ずる。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_177",
+      "citation": "民法177条",
+      "text": "不動産に関する物権の得喪及び変更は、不動産登記法その他の登記に関する法律の定めるところに従いその登記をしなければ、第三者に対抗することができない。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_601",
+      "citation": "民法601条",
+      "text": "賃貸借は、当事者の一方がある物の使用及び収益を相手方にさせることを約し、相手方がこれに対してその賃料を支払うことを約することによって、その効力を生ずる。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_605",
+      "citation": "民法605条",
+      "text": "不動産の賃貸借は、その登記をしたときは、その後その不動産について物権を取得した者に対しても、その効力を生ずる。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_612_1",
+      "citation": "民法612条1項",
+      "text": "賃借人は、賃貸人の承諾を得なければ、その権利を譲り渡し、又は賃借物を転貸することができない。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_612_2",
+      "citation": "民法612条2項",
+      "text": "賃借人が前項の規定に違反して第三者に賃借物の使用又は収益をさせたときは、賃貸人は、契約の解除をすることができる。"
+    }
+  ],
+  "notes": null
+}

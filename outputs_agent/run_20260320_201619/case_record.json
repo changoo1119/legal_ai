@@ -1,0 +1,259 @@
+{
+  "case_id": "case_001",
+  "title": "樹木の所有権をめぐる紛争",
+  "raw_case_text": "事件名：\n\n事案：\n甲は、乙の不在を奇貨として、乙所有地に樹木の苗（5000円相当）を植え、６カ月後には根付いた。その後、甲は13年間右の樹木を手入れし、その結果、時価50万円相当となった。その頃、乙が帰来したが、右の樹木をめぐり甲乙互いに自分の所有権を主張して譲らない。",
+  "case_summary": "乙所有地に甲が苗木（5000円相当）を植え、6カ月後に根付いた。以後13年間甲が手入れし、樹木は時価50万円相当となった。乙が帰来後、当該樹木の所有権につき甲乙が各自の所有を主張して争っている。",
+  "domain": "civil_obligations",
+  "parties": [
+    {
+      "party_id": "PLAINTIFF",
+      "name": "甲",
+      "role": "plaintiff",
+      "description": null
+    },
+    {
+      "party_id": "DEFENDANT",
+      "name": "乙",
+      "role": "defendant",
+      "description": null
+    }
+  ],
+  "timeline": [
+    {
+      "event_id": "T1",
+      "order_index": 0,
+      "description": "甲が乙所有地に樹木の苗（5000円相当）を植えた（乙は不在）。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T2",
+      "order_index": 1,
+      "description": "植栽から6カ月後、苗は根付いた。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T3",
+      "order_index": 2,
+      "description": "その後、甲は13年間当該樹木を手入れした。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T4",
+      "order_index": 3,
+      "description": "当該樹木の時価は50万円相当となった。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T5",
+      "order_index": 4,
+      "description": "乙が帰来した。",
+      "source": "case_text"
+    },
+    {
+      "event_id": "T6",
+      "order_index": 5,
+      "description": "当該樹木の所有権をめぐり、甲乙が互いに自己の所有を主張して譲らない。",
+      "source": "case_text"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM_1",
+      "claimant_party_id": "PLAINTIFF",
+      "respondent_party_id": "DEFENDANT",
+      "title": "樹木の所有権確認請求（甲→乙）",
+      "description": "乙所有地に植栽し手入れした樹木につき、甲の所有権の確認を求める。",
+      "requested_relief": "本件樹木の所有権が原告甲に属することの確認"
+    },
+    {
+      "claim_id": "CLAIM_2",
+      "claimant_party_id": "DEFENDANT",
+      "respondent_party_id": "PLAINTIFF",
+      "title": "樹木の所有権確認請求（乙→甲）",
+      "description": "自己所有地に根付いた樹木につき、乙の所有権の確認を求める。",
+      "requested_relief": "本件樹木の所有権が被告乙に属することの確認"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F1",
+      "content": "当該土地は乙の所有地である。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F2",
+      "content": "甲は乙の不在中に乙所有地へ樹木の苗（5000円相当）を植えた。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F3",
+      "content": "植栽から6カ月後に当該苗は根付いた。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F4",
+      "content": "甲はその後13年間当該樹木を手入れした。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F5",
+      "content": "当該樹木の時価は50万円相当となった。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F6",
+      "content": "乙はその頃帰来した。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    },
+    {
+      "fact_id": "F7",
+      "content": "当該樹木の所有権につき、甲乙は互いに自己の所有を主張している。",
+      "dispute_level": "undisputed",
+      "source": "case_text"
+    }
+  ],
+  "candidate_statutes": [
+    {
+      "statute_id": "CIVIL_CODE_1_2",
+      "citation": "民法1条2項",
+      "text": "権利行使・義務履行は信義誠実に従うべきことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_1_3",
+      "citation": "民法1条3項",
+      "text": "権利の濫用は許されないことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_176",
+      "citation": "民法176条",
+      "text": "物権の設定及び移転は、当事者の意思表示のみによって効力を生ずる。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_177",
+      "citation": "民法177条",
+      "text": "不動産物権変動は登記がなければ第三者に対抗できないことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_206",
+      "citation": "民法206条",
+      "text": "所有者は法令の制限内で所有物を使用・収益・処分できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_242",
+      "citation": "民法242条",
+      "text": "不動産の所有者は、その不動産に従として付合した物の所有権を取得することを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_248",
+      "citation": "民法248条",
+      "text": "付合等によって損失を受けた者が償金を請求できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_413",
+      "citation": "民法413条",
+      "text": "債権者が履行受領を拒み又は受けられない場合の受領遅滞を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_415",
+      "citation": "民法415条",
+      "text": "債務不履行による損害賠償請求の要件と限界を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_467",
+      "citation": "民法467条",
+      "text": "債権譲渡の債務者・第三者に対する対抗要件を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_468",
+      "citation": "民法468条",
+      "text": "債権譲渡において債務者が譲受人に対抗できる抗弁を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_469",
+      "citation": "民法469条",
+      "text": "債権譲渡の場合における債務者の相殺権の可否を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_505",
+      "citation": "民法505条",
+      "text": "相殺の一般的要件を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_506",
+      "citation": "民法506条",
+      "text": "相殺の方法と効力を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_536",
+      "citation": "民法536条",
+      "text": "双方の責めに帰することができない事由による履行不能時の危険負担を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_541",
+      "citation": "民法541条",
+      "text": "催告による解除の要件を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_545",
+      "citation": "民法545条",
+      "text": "解除の効果と原状回復義務を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_555",
+      "citation": "民法555条",
+      "text": "売買契約の成立を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_562",
+      "citation": "民法562条",
+      "text": "契約不適合がある場合の買主の追完請求権を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_563",
+      "citation": "民法563条",
+      "text": "契約不適合がある場合の買主の代金減額請求権を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_564",
+      "citation": "民法564条",
+      "text": "契約不適合の場合における損害賠償請求・解除との関係を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_601",
+      "citation": "民法601条",
+      "text": "賃貸借契約の成立と基本的内容を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_605",
+      "citation": "民法605条",
+      "text": "不動産賃貸借は登記があれば第三者に対抗できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_612_1",
+      "citation": "民法612条1項",
+      "text": "賃借人は賃貸人の承諾なく賃借権譲渡や転貸をできないことを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_612_2",
+      "citation": "民法612条2項",
+      "text": "無断転貸等があった場合に賃貸人が解除できることを定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_703",
+      "citation": "民法703条",
+      "text": "法律上の原因なく利益を受け他人に損失を及ぼした者の不当利得返還義務を定める。"
+    },
+    {
+      "statute_id": "CIVIL_CODE_704",
+      "citation": "民法704条",
+      "text": "悪意の受益者の返還範囲と損害賠償責任を定める。"
+    }
+  ],
+  "notes": null
+}

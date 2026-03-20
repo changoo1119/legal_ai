@@ -1,0 +1,20 @@
+[
+  {
+    "decision_id": "decision_840e970da3",
+    "round_number": 1,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "当事者の主張はISSUE_1（付合の成否・一般条項の射程）およびISSUE_2（民法248条の相当償金と703条の補充性・範囲）に収まっており、新たな論点の顕在化はない。事実関係はF1〜F5で不争だが、法解釈・評価は対立したままであるため、最終ラウンドでの反論・法理の詰め（特に248条における『相当』の算定方法、703条適用可否、242条の一般条項による修正可能性）を継続審理する必要がある。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T11:22:01.245994Z"
+  },
+  {
+    "decision_id": "decision_9e8fecd272",
+    "round_number": 2,
+    "new_issue_found": false,
+    "continue_round": false,
+    "reason": "第2ラウンドでは、ISSUE_1・ISSUE_2の枠内での法的評価の補強・明確化にとどまり、新たな事実・条文や独立の争点は現れていない。現在ラウンドが最大ラウンド数（2/2）に達しているため、次ラウンドの継続は不要。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T11:25:28.791098Z"
+  }
+]

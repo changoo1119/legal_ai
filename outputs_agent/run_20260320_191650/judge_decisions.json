@@ -1,0 +1,20 @@
+[
+  {
+    "decision_id": "decision_fbb01b48b0",
+    "round_number": 1,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "最新要約に現れた主張（背信的悪意者法理の適用可否、177条の位置付け、612条違反と解除の有無、信義則・権利濫用）は、既存のISSUE_1の範囲内であり、F7も既に争点整理表のdisputed_factsに計上済みで新論点はない。他方、ISSUE_1は未解決で、F7の認定や605条適用範囲・612条との関係について更なる主張立証の余地があるため、次ラウンドの継続が相当。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T10:23:50.669074Z"
+  },
+  {
+    "decision_id": "decision_95ed5ff28b",
+    "round_number": 2,
+    "new_issue_found": false,
+    "continue_round": false,
+    "reason": "最新ラウンドの主張は、605条の適用と背信的悪意者該当性、177条の位置付け、612条の解除要否という既存の争点の範囲内にとどまり、新論点はない（176条の言及も既に整理表に含まれる）。現在ラウンド2で最大ラウンド数2に達しているため、次ラウンドへの継続はしない。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T10:27:21.813865Z"
+  }
+]

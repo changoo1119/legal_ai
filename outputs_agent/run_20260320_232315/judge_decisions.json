@@ -1,0 +1,20 @@
+[
+  {
+    "decision_id": "decision_1f2db1bbf3",
+    "round_number": 1,
+    "new_issue_found": false,
+    "continue_round": true,
+    "reason": "最新ラウンドの主張は既存のISSUE_1（469条と505条の適用関係、506条の効力、同時到達・衡平）の範囲内であり、争点整理表に既掲の事実争点（通知前の反対債権の時期、相殺意思表示の先後）を確認したにとどまるため新論点はない。他方、これら事実関係は未解明でISSUE_1はopenのままであるため、最大ラウンド数の範囲で更なる主張・立証を促すべく次ラウンドを継続する必要がある。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T14:33:17.993583Z"
+  },
+  {
+    "decision_id": "decision_101e17a72d",
+    "round_number": 2,
+    "new_issue_found": false,
+    "continue_round": false,
+    "reason": "新論点の追加はなく、主張はISSUE_1の範囲内（通知前存在・意思表示先後・相殺適状時期の確認）にとどまる。現在ラウンドが最大ラウンド数（2/2）に達しているため、次ラウンドの継続はしない。",
+    "issued_by": "presiding_judge",
+    "created_at": "2026-03-20T14:38:10.570713Z"
+  }
+]
